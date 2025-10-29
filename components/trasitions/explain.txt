@@ -1,0 +1,17 @@
+Transitions (How the change happens over time)
+     Transitions are the effects that control how animations happen, think of them as the rules for how an element moves or changes.
+     Transitions define how the change occurs — the timing, speed, and easing of the transformation.
+
+     It controls:
+        Duration (how long the animation takes)
+        Easing / type (how it accelerates or decelerates or the speed curve of the animation)
+        Delay (when it starts or how long to wait before starting the animation)
+        Repeat behavior (looping or mirroring)
+
+Ease
+ easeIn --> started very slow then increase the speed
+ easeOut --> opp to easeIn started with speed and then become slow
+ anticipate --> go slightly backward which is less that       
+                "backIn" and come forward
+ backIn --> just go backward slightly and come forward
+ linear --> same speed from starting to ending

@@ -1,0 +1,27 @@
+Transformations (What changes visually)
+   transformations are defined in the initial, animate, and exit props.
+   means how we are going to changing the state of our element from one state to another like changing the position or shape or something like that.
+
+<motion.div
+   initial = "" --> initial state or when it'll enters the dom, it specify how the element should appear in the 1st render
+
+   animate = "" --> used to create animation
+
+  exit = "" --> used to define animation that occurs when the component is removed from the DOM, useful for creating smooth transitions when unmount the component by enhancing the user experience by indicating that something has disappeared
+/>
+
+<motion.div
+  initial={{ x: -100, opacity: 0 }}
+  animate={{ x: 0, opacity: 1 }}
+  exit={{ x: 100, opacity: 0 }}
+>
+  Slide In/Out Box
+</motion.div>
+
+animate = {{x:100}},{{y:100}} (moves from left to right and so on), 
+animate = {{rotateX:100}}, {{rotateY:100}}, {{rotate:100}} ,  
+animate = {{scaleX:2}} {{scaleY:2}} {{scale:2}} (slightly increases in the top, bottom ..), 
+animate = {{skewX:20}} {{skewY:20}} {{skew:20}}  (a tilt effect on X and Y axis)
+animate = {{opacity}} 
+animate = {{backgroundColor}}
+animate = {{color}}
