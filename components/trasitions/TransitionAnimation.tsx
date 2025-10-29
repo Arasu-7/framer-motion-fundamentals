@@ -22,7 +22,7 @@ const TransitionAnimation = () => {
       animate={{ x: -630 }}
       // transition={{delay:2}}
       // transition={{duration:10}}
-      transition={{duration:4,ease:"linear"}}
+      transition={{duration:4,ease:"easeIn"}}
       >
       Durr
     </motion.div>

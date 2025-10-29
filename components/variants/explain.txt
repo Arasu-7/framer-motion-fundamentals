@@ -1,0 +1,9 @@
+Variants
+  Variants are a way to define different states or styles for our animations in a more organized way, Think of them as predefined animations setups that we can switch between easily.
+
+1.Define Variants
+  Create a set of named styles (like "hidden", "visible") that describe how the element should look or behave in each state.
+
+2.Use Variants
+  Apply these variants to our animated component, making it easy to switch between states without repeating
+  
