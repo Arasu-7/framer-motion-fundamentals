@@ -1,0 +1,2 @@
+Stagger
+   Stagger animation refers to a technique where multiple elements animate in a sequence rather that all at once. This creates a more dynamic and visually appealing effect, as each element appears or moves slightly after the previous one, adding a sense of rhythm and flow to the animation.

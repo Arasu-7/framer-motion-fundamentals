@@ -1,0 +1,6 @@
+Gestures
+    Gestures allow us to add interactive animation based on user actions like dragging, hovering, or tapping. It makes our components respond to how users interact with them
+
+whileHover
+whileTap
+whileDrag
